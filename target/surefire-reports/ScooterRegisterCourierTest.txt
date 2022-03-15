@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: ScooterRegisterCourierTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.782 s <<< FAILURE! - in ScooterRegisterCourierTest
+courierCantBeCreatedWithoutName(ScooterRegisterCourierTest)  Time elapsed: 0.155 s  <<< FAILURE!
+java.lang.AssertionError: 
+Courier created
+Expected: <400>
+     but: was <201>
+	at ScooterRegisterCourierTest.courierCantBeCreatedWithoutName(ScooterRegisterCourierTest.java:64)
+
+courierCantBeCreatedWithExistingLogin(ScooterRegisterCourierTest)  Time elapsed: 0.22 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: "Этот логин уже используется"
+     but: was "Этот логин уже используется. Попробуйте другой."
+	at ScooterRegisterCourierTest.courierCantBeCreatedWithExistingLogin(ScooterRegisterCourierTest.java:76)
+
